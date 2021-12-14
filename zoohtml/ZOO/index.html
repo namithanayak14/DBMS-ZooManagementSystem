@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>DBMS PROJECT</title>
+<link rel="stylesheet" href="all.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+  <div class="menu-bar">
+  <ul>
+    <li class="active"><a href="#"><i class="fas fas-home"></i></i>Home</a></li>
+    <div class="container">
+      <li class="click"><a href="#"><i class="fas fas-question"></i>Queries</a>
+        <div class="list">
+          <button class="links">Query 1</button>
+          <button class="links">Query 2</button>
+          <button class="links">Query 3</button>
+          <button class="links">Query 4</button>
+          <button class="links">Query 5</button>
+          <button class="links">Query 6</button>
+          <button class="links">Query 7</button>
+          <button class="links">Query 8</button>
+          <button class="links">Query 9</button>
+          <button class="links">Query 10</button>
+        </div>
+
+      </div>
+      <script>
+      let click = document.querySelector('.click');
+      let list=document.querySelector('.list');
+      click.addEventListener("click",()=>{
+        list.classList.toggle('newlist');
+      });
+      </script>
+
+
+    </li>
+
+    <li><a href="#">About us</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Clients</a></li>
+    <li><a href="#">Reviews</a></li>
+
+    </ul>
+  </div>
+  </body>
+</html>
